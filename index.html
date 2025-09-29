@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/manutdlogo.png" />
+    <title>Official Manchester United Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body style="background-color: #ffe500">
+    <!-- color it with bg color -->
+    <div class="body" id="vertical">
+      <section>
+        <!-- navbar -->
+        <div class="container mt-3">
+          <nav
+            style="background-color: #ffffff !important"
+            class="navbar navbar-expand-md bg-body-tertiary"
+          >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="./assets/manutdlogo.png"
+                  height="50px"
+                  alt="man united logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#Home"
+                    >Home</a
+                  >
+                  <a class="nav-link active" href="#History">History</a>
+                  <a class="nav-link active" href="#Players">Players</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section id="Home">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="ps-xxl-5 pe-xxl-0 col-10 col-sm-8 col-lg-6">
+              <img
+                style="border-radius: 5px"
+                src="./assets/old-trafford.png"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="ps-xxl-0 pe-xxl-5 col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                Old Trafford, Theatre of Dreams
+              </h1>
+              <p class="lead">
+                Where impossible was made possible, where youngsters shone,
+                where the stand roared United Roar, yes, this is the birthplace
+                of legends and unending history
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button
+                  id="storeButton"
+                  type="button"
+                  class="btn btn-lg px-4 me-md-2"
+                >
+                  <a class="nav-link" href="#History">Get Started</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="History">
+        <div class="container my-3">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner" style="border-radius: 50px">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/sirAlex2.jpg"
+                  class="d-block w-100"
+                  alt="Sir Alex Ferguson Photo"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sir Alex Ferguson</h5>
+                  <p>
+                    Most Decorated Manager in Classic and Modern Football
+                    History.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/manutdlogos.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/unitedtrinity.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>United Trinity</h5>
+                  <p>How it Started!</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="Players">
+        <div class="container my-5">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/bf.webp"
+                  class="card-img-top"
+                  alt="Bruno Fernansh photo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bruno Fernandes</h5>
+                  <p class="card-text">
+                    The captain himself, the magician, the man with most chances
+                    created, our Number 8!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/C.webp"
+                  class="card-img-top"
+                  alt="Casemiro photo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Casemiro</h5>
+                  <p class="card-text">
+                    The best pivot in Real Madrid history, the best in his
+                    position, he was once believed that when he played we
+                    would've won, that's how generational of a talent he was.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/MDL.png"
+                  class="card-img-top"
+                  alt="Mateis De Ligt photo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Mathijs De Ligt</h5>
+                  <p class="card-text">
+                    One of the best Centreback talents in the world, he came
+                    from Bayern at the age of 24 and has blessed us from since.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/Leny.webp"
+                  class="card-img-top"
+                  alt="Leny Yoro photo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Leny Yoro</h5>
+                  <p class="card-text">
+                    19 years old, that's enough as a description, to be a
+                    starter at such young age for man united is astonishing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: #212529; border-bottom-left-radius: 15px;" id="Footer">
+          <footer class="py-3 my-0">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="#Home" class="nav-link px-2 ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#History" class="nav-link px-2"
+                  >History</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#Players" class="nav-link px-2"
+                  >Players</a
+                >
+              </li>
+            </ul>
+            <p class="text-center">© 2025 Manchester United</p>
+          </footer>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

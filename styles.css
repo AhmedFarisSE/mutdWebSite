@@ -1,0 +1,35 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+div.body#vertical {
+    background-color: #FFFFFF;
+    margin: 80px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 3px solid;
+    box-shadow: 5px 5px;
+    word-wrap: break-word;
+}
+button#storeButton {
+    background-color: #DA0106; 
+    color: white;
+    border: 3px solid black;
+    border-radius: 100px;
+    box-shadow: 2px 2px black;
+}
+button#storeButton:hover {
+    border-color: yellow;
+    box-shadow: 5px 5px yellow;
+}
+section#Home > div.container.xxl-lg-8.px-4.py-5 {
+    margin: 0 !important;
+}
+section div.carousel-inner {
+    display: flex;
+    flex-shrink: 1;
+    max-height: 1000px !important;
+}
+footer > ul > li > a, footer > p {
+    color: #DA0106 !important;
+}
